@@ -1,0 +1,13 @@
+{
+  "username": "postman",
+  "password": "password",
+  "endpoint": "users?page=2",
+  "languages": ["java","python"],
+  "marks": [1,2,3],
+  "contact": [
+    "first_name : name",
+    "email : name@email.com",
+    "phone : 1234567891",
+    "country : India"
+  ]
+}

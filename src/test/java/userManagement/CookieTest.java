@@ -1,14 +1,11 @@
 package userManagement;
 
-import io.restassured.http.Cookie;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.Map;
-
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
 
 public class CookieTest {
 
