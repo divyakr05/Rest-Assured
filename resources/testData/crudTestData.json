@@ -1,0 +1,13 @@
+{
+  "post": {
+    "name": "John",
+    "job" : "Engineer"
+  },
+  "put": {
+    "name": "Peter",
+    "job" : "Scientist"
+  },
+  "patch": {
+    "job" : "Teacher"
+  }
+}
