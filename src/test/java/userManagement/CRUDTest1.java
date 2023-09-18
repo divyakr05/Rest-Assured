@@ -12,7 +12,7 @@ import java.io.IOException;
 import static io.restassured.RestAssured.*;
 
 
-public class crudTest {
+public class CRUDTest1 {
 
     @Test(description = "Get Operation")
     public void getOperation(){
@@ -22,6 +22,7 @@ public class crudTest {
         response = given()
                 .when()
                 .get("/users");
+
 
         Assert.assertEquals(response.statusCode(),200);
         System.out.println("Get operation is successful!!");
